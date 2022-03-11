@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFFFFF;
+	color: #555557;
+	font-family: Helvetica, Arial;
+	font-size: 9pt;
+}
+
+a {
+	color: #e36b00;
+}
+
+h2 {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.clear {
+	clear:both;
+	height:1px;
+}
+
+.multiple_view {
+	display:none;
+}
+
+.resume_link {
+	color: #FFFFFF;
+	font-size: 7pt;
+	font-weight: bold;
+}
+
+#main_container {
+	background: url(../images/bac_collage.jpg) no-repeat; 
+	height: 650px;
+	position: relative;
+	width: 925px;
+}
+
+.thumbnail img { 
+	float: left;
+	width: 59px; 
+	border: 3px solid #e36b00;
+	margin: 3px;
+}
+
+#main_container ul {
+	list-style: disc;
+	list-style-position: inside;
+	margin-top: 1em;
+	margin-left: 0;
+	padding-left: 1em;
+	padding-right: 2em;
+	text-indent: -1em;
+}
+
+#main_container li {
+	line-height: 105%;
+	margin-bottom: 1em;
+}
+
+#qualifications {
+	background: url(../images/bac_blue_box.gif) no-repeat; 
+	float: left;
+	height: 223px;
+	margin-left: 190px;
+	margin-top: 0px;
+	padding: 12px; 	
+	width: 205px;
+}
+
+#logo {
+	float: right;
+	height: 101px;
+	margin-bottom: 26px;
+	margin-right: 38px;
+	margin-top: 25px;
+	width: 143px;
+}
+
+#intro_text {
+	float: right;
+	padding: 0;
+	width: 381px;
+}
+
+#intro_text p {
+	text-align: right;
+}
+
+#thumbnails {
+	float: right;
+	width: 355px;
+}
+
+#footer {
+	bottom: 0;
+	clear:both;
+	font-size: 8pt;
+	margin-left: 190px;
+	position: absolute;
+}
+
+
+
